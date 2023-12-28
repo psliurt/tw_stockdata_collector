@@ -1,6 +1,6 @@
 package structs
 
-type STOCK_DAY_ALL struct {
+type DailyStockDayAll struct {
 	Code         string
 	Name         string
 	TradeVolume  string
@@ -11,4 +11,19 @@ type STOCK_DAY_ALL struct {
 	ClosingPrice string
 	Change       string
 	Transaction  string
+}
+
+type DailyBwibbuAll struct {
+	Code          string
+	Name          string
+	PEratio       string
+	DividendYield string
+	PBratio       string
+}
+
+type DailyStockDayAvgAll struct {
+	Code                string
+	Name                string
+	ClosingPrice        string
+	MonthlyAveragePrice string
 }
